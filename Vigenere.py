@@ -2,8 +2,8 @@
 
 # dersteki metin/şifreli :=> thiscryptosystemisnotsecure VPXZGIAXIVWPUBTTMJPWIZITWZT
 
-# Bu algotirmada string bir anahtar kullanılır , şifreleyeceğimiz metni anahatar uzunluğumuz kadar parçaya ayırırız
-# metni ve anahtarı numerik olarak yazar ve bunları toplarız , çıkan sayı 26 dan büyükse modu alınır 
+# Bu algotirmada string bir anahtar kullanılır , şifreleyeceğimiz metni anahatar uzunluğunda kümelere ayırırız 
+# metni ve anahtarı numerik olarak yazar ve bunları toplarız , çıkan sayı 26 dan büyükse modu alınır , küçükse direkt alınır
 # elde edilen sayılara karşılık gelen karakterler birleştirilerek şifreleme tamamlanır 
 
 def clearSpace(message): # metindeki boşlukları temizler 
