@@ -2,7 +2,7 @@
 
 # dersteki metin/şifreli :=> hot AXG
 
-# Bu algoritmada 2 tane anahta kullanılır ve birinci anahtarla karakter setindeki eleman sayısı aralrında asal olmalıdır . 
+# Bu algoritmada 2 tane anahtar kullanılır ve birinci anahtarla karakter setindeki eleman sayısı aralrında asal olmalıdır . 
 # Başka bir deyişle EBOB(a,n) = 1 | n : karakter setindeki eleman sayısı 
 # denklem ax + b şeklindedir . Anahtarlar belirlendikten sonra şifrelenecek metnin sayısal kaşılıkları elde edilir ve x yerine yazılır 
 # ax + b işelminin ardından çıkan sonucun 26 ya göre modu alınır , bu her karakter için tekrarlanır ve sayıya karşılık gelen karakter yazılır 
