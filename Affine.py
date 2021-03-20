@@ -28,11 +28,11 @@ def checkMsg(message): # karakter setimizde tanımlı olmayan karakterlrin kontr
 		print("Bu metin şifrelenemez .")
 		return False
 
-def checkKey(anahtar): # Birici anahtalar 26 nın asallığının konrolü
+def checkKey(anahtar): # Birici anahtala 26 nın asallığının konrolü
 	bolen1 = [] # anahtarın tam bölenlerini burda tut
 	bolen2 = [] # karakter setinin tam bölenlerini burda tut
 	ret = True  
-	for i in range(2,anahtar+1): # anahtar değerine 1 ekleme sebebim range() fonksiyonun 1 eksiğini almasında kaynaklı 
+	for i in range(2,anahtar+1): # anahtar değerine 1 ekleme sebebim range() fonksiyonun 1 eksiğini almasından kaynaklı 
 		deger = anahtar % i
 		if(deger == 0):
 			bolen1.append(i)
@@ -73,7 +73,7 @@ def decode(message , a1 , a2):
 				letterNumber.append(k) # her harfe karşılık gelen sayıyı listeye ekle
 
 	for i in letterNumber:
-		sayi = (i-a2)/a1
+		sayi = (i-a2)/a1  # işlemleri tersten yapıyor . bu kısmı anlamadıysanız affine.md ye bakabilirsiniz . 
 		if(sayi != int(sayi)): # tam sayı olup olmadığını kontol ediyor
 			while(True):
 				i = i+26
